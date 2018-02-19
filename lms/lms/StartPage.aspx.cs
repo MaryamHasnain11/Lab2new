@@ -13,5 +13,15 @@ namespace lms
 		{
 
 		}
+
+		protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+		{
+			Response.Redirect("Login.aspx");
+		}
+
+		protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+		{
+			Response.Redirect("Register.aspx");
+		}
 	}
 }

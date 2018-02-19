@@ -44,6 +44,14 @@ namespace lms
 
 		protected void Button1_Click(object sender, EventArgs e)
 		{
+			
+
+
+
+		}
+
+		protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+		{
 			String fName = TextBox1.Text.ToString();
 			String lName = TextBox2.Text.ToString();
 			String userName = TextBox3.Text.ToString();
@@ -51,14 +59,14 @@ namespace lms
 			OleDbConnection conn = new OleDbConnection();
 			//Use a string variable to hold the ConnectionString.
 			conn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;"
-			+ "Data Source=C:\\Users\\Intag\\Documents\\Database1.accdb";
+			+ "Data Source=C:\\Users\\Intag\\Documents\\GitHub\\Lab2new\\lms\\lms\\App_Data\\Database1.accdb";
 
-			
+
 
 
 
 			//new
-			String query=@"INSERT INTO Users (FirstName,LastName,Username,Pasword) VALUES(@fName,@lname,@userName,@pasword)";
+			String query = @"INSERT INTO Users (FirstName,LastName,Username,Pasword) VALUES(@fName,@lname,@userName,@pasword)";
 			System.Data.OleDb.OleDbCommand cmd = new System.Data.OleDb.OleDbCommand(query, conn);
 			cmd.Parameters.AddWithValue("@fName", fName);
 			cmd.Parameters.AddWithValue("@lName", lName);
@@ -66,16 +74,14 @@ namespace lms
 			cmd.Parameters.AddWithValue("@pasword", pasword);
 			conn.Open();
 
-			
-			
-				
-					cmd.ExecuteNonQuery();
-					Response.Write("<script>alert('Registration successful');</script>");
-			Response.Redirect("Home.aspx");
 
+
+
+			cmd.ExecuteNonQuery();
+			Response.Write("<script>alert('Registration successful');</script>");
+			//Response.Redirect("Home.aspx");
+			Response.Write("<script>window.location.href='home.aspx';</script>");
 			conn.Close();
-			
-
 
 
 

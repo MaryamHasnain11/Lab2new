@@ -19,13 +19,19 @@ namespace lms
 
 		protected void Button2_Click(object sender, EventArgs e)
 		{
+			
+
+		}
+
+		protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+		{
 			String userName = TextBox1.Text.ToString();
-			;
+
 			String pasword = TextBox2.Text.ToString();
 			OleDbConnection con = new OleDbConnection();
 			//Use a string variable to hold the ConnectionString.
 			con.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;"
-			+ "Data Source=C:\\Users\\Intag\\Documents\\Database1.accdb";
+			+ "Data Source=C:\\Users\\Intag\\Documents\\GitHub\\Lab2new\\lms\\lms\\App_Data\\Database1.accdb";
 			string query = @"select count(*) from Users where Username=@userName and Pasword = @pasword;";
 			OleDbCommand cmd = new OleDbCommand(query, con);
 
@@ -35,7 +41,7 @@ namespace lms
 			int result = (int)cmd.ExecuteScalar();
 			if (result > 0)
 			{
-				Response.Write("<script>alert('login successful');</script>");
+				Response.Write("<script>alert('Login successful. Please enter your details again.');</script>");
 				Response.Redirect("Home.aspx");
 			}
 
@@ -47,10 +53,6 @@ namespace lms
 
 			con.Close();
 
-
 		}
-
-
-
 	}
 }

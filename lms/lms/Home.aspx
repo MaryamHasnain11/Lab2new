@@ -15,12 +15,32 @@
         </div>
 		<div>Search By: &nbsp
 			<asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+				<asp:ListItem Text="All"></asp:ListItem>
 				<asp:ListItem Text="Author"></asp:ListItem>
 				<asp:ListItem Text="Title"></asp:ListItem>
 				<asp:ListItem Text="Genre"></asp:ListItem>
 			</asp:DropDownList>
 		&nbsp	<input type="search"  id="search"/><input id="Submit1" type="submit" value="submit" /></div>
- </center> </div>  </form>
+ </center> </div>  
 	
-</body>
+	<p>
+		&nbsp;</p>
+		
+		
+	<div>
+		
+		
+		<asp:Table ID="DisplayTable"  GridLines="Both" HorizontalAlign="Center" BorderStyle="Solid"  runat="server">
+			
+		</asp:Table><br />
+		<asp:Table ID="DisplayTable2"  GridLines="Both" HorizontalAlign="Center" BorderStyle="Solid"  runat="server">
+			
+		</asp:Table>
+
+		</div>
+
+		
+	</form>
+	
+	</body>
 </html>
