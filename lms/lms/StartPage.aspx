@@ -21,7 +21,7 @@
 		<br /><br />
         <div>
 			<center><h2>Welcome to Library Management System</h2></center>
-        </div></br><br />
+        </div><br/><br />
 		<center>
 			Click on Login if you are a returning user <br />
 			Click on register if you are a new user

@@ -42,7 +42,7 @@ namespace lms
 			if (result > 0)
 			{
 				Response.Write("<script>alert('Login successful. Please enter your details again.');</script>");
-				Response.Redirect("Home.aspx");
+				Response.Redirect("search.aspx");
 			}
 
 			else

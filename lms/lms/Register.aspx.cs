@@ -79,8 +79,8 @@ namespace lms
 
 			cmd.ExecuteNonQuery();
 			Response.Write("<script>alert('Registration successful');</script>");
-			//Response.Redirect("Home.aspx");
-			Response.Write("<script>window.location.href='home.aspx';</script>");
+			//Response.Redirect("search.aspx");
+			Response.Write("<script>window.location.href='search.aspx';</script>");
 			conn.Close();
 
 

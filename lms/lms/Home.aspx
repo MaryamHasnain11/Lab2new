@@ -12,7 +12,7 @@
         <div style="border:solid">
 			<div>
         	<h3>Welcome to Library System</h3><br />
-        </div>
+        </div></div>
 		<div>Search By: &nbsp
 			<asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
 				<asp:ListItem Text="All"></asp:ListItem>
@@ -33,9 +33,7 @@
 		<asp:Table ID="DisplayTable"  GridLines="Both" HorizontalAlign="Center" BorderStyle="Solid"  runat="server">
 			
 		</asp:Table><br />
-		<asp:Table ID="DisplayTable2"  GridLines="Both" HorizontalAlign="Center" BorderStyle="Solid"  runat="server">
-			
-		</asp:Table>
+		
 
 		</div>
 

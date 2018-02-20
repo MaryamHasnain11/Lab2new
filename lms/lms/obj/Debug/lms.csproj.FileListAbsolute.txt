@@ -35,6 +35,7 @@ C:\Users\Intag\Desktop\lms\lms\obj\Debug\lms.csprojResolveAssemblyReference.cach
 C:\Users\Intag\Desktop\lms\lms\obj\Debug\lms.csproj.CoreCompileInputs.cache
 C:\Users\Intag\Desktop\lms\lms\obj\Debug\lms.dll
 C:\Users\Intag\Desktop\lms\lms\obj\Debug\lms.pdb
+C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\ApplicationInsights.config
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\lms.dll.config
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\lms.dll
@@ -42,7 +43,6 @@ C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\lms.pdb
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\Antlr3.Runtime.dll
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\AspNet.ScriptManager.bootstrap.dll
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\AspNet.ScriptManager.jQuery.dll
-C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\Microsoft.AI.DependencyCollector.dll
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\Microsoft.AI.PerfCounterCollector.dll
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\Microsoft.AI.ServerTelemetryChannel.dll
@@ -68,7 +68,7 @@ C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\Microsoft.AI.DependencyColle
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\bin\Microsoft.AI.Web.xml
-C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\obj\Debug\lms.csprojResolveAssemblyReference.cache
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\obj\Debug\lms.csproj.CoreCompileInputs.cache
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\obj\Debug\lms.dll
 C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\obj\Debug\lms.pdb
+C:\Users\Intag\Documents\GitHub\Lab2new\lms\lms\obj\Debug\lms.csprojResolveAssemblyReference.cache
