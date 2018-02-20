@@ -8,7 +8,7 @@ using System.Windows.Forms;
 namespace lms
 {
 	public partial class Search : System.Web.UI.Page
-	  
+
 	{
 		string bname = "";
 		String IssueD = "";
